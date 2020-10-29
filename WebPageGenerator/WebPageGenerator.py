@@ -23,7 +23,7 @@ class ParentWindow(Frame):
         self.txt_box1.grid(row=1, column=0, padx=(25,15), pady=(10,0), sticky=W)
 
         # Button
-        self.btn_create = Button(self.master,width=12,height=1,text='Ceate Website',command=lambda: createWebsite(self))
+        self.btn_create = Button(self.master,width=12,height=1,text='Create Website',command=lambda: createWebsite(self))
         self.btn_create.grid(row=2, column=0, padx=(25,20), pady=(10,20), sticky=W)
         
 
